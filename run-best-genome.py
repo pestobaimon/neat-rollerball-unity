@@ -7,7 +7,7 @@ import numpy as np
 
 channel = EngineConfigurationChannel()
 
-env = UE(file_name='Unity/test_scene_radial_random/New Unity Project', seed=100, side_channels=[channel])
+env = UE(file_name='unity/test_scene/New Unity Project', seed=100, side_channels=[channel])
 
 channel.set_configuration_parameters(time_scale=6)
 
